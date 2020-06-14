@@ -1,0 +1,158 @@
+============[Date]============
+[ 2020-06-11 07:40:08  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 0
+=========[Sent Data]==========
+[ref]
+ref.update_id= 287966959
+ref.message.message_id= 19
+ref.message.from.id= 635793263
+ref.message.from.is_bot= false
+ref.message.from.first_name= Mirafzal
+ref.message.from.last_name= Shavkatov
+ref.message.from.username= Mirafzal_Shavkatov
+ref.message.from.language_code= ru
+ref.message.chat.id= 635793263
+ref.message.chat.first_name= Mirafzal
+ref.message.chat.last_name= Shavkatov
+ref.message.chat.username= Mirafzal_Shavkatov
+ref.message.chat.type= private
+ref.message.date= 1591850407
+ref.message.text= Оплата и доставка
+
+
+[ref]
+ref.text= <ul><li>fefe</li><li>fefe</li><li>fefe</li></ul>
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(6400): TelegramErrorLogger::log(Array, Array)
+#1 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(220): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(390): Telegram->endpoint('sendMessage', Array)
+#3 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(223): Telegram->sendMessage(Array)
+#4 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(164): sendMessage('<ul><li>fefe</l...')
+#5 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(71): showPaymentAndDeliveryPage()
+#6 {main}
+
+============[Date]============
+[ 2020-06-11 07:40:20  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Unsupported start tag "ul" at byte offset 0
+=========[Sent Data]==========
+[ref]
+ref.update_id= 287966960
+ref.message.message_id= 20
+ref.message.from.id= 635793263
+ref.message.from.is_bot= false
+ref.message.from.first_name= Mirafzal
+ref.message.from.last_name= Shavkatov
+ref.message.from.username= Mirafzal_Shavkatov
+ref.message.from.language_code= ru
+ref.message.chat.id= 635793263
+ref.message.chat.first_name= Mirafzal
+ref.message.chat.last_name= Shavkatov
+ref.message.chat.username= Mirafzal_Shavkatov
+ref.message.chat.type= private
+ref.message.date= 1591850420
+ref.message.text= Оплата и доставка
+
+
+[ref]
+ref.text= <ul><li>fefe</li><li>fefe</li><li>fefe</li></ul>gg
+ref.parse_mode= HTML
+
+
+============[Trace]===========
+#0 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(6400): TelegramErrorLogger::log(Array, Array)
+#1 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(220): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(390): Telegram->endpoint('sendMessage', Array)
+#3 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(223): Telegram->sendMessage(Array)
+#4 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(164): sendMessage('<ul><li>fefe</l...')
+#5 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(71): showPaymentAndDeliveryPage()
+#6 {main}
+
+============[Date]============
+[ 2020-06-11 07:44:45  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Character '-' is reserved and must be escaped with the preceding '\'
+=========[Sent Data]==========
+[ref]
+ref.update_id= 287966962
+ref.message.message_id= 23
+ref.message.from.id= 635793263
+ref.message.from.is_bot= false
+ref.message.from.first_name= Mirafzal
+ref.message.from.last_name= Shavkatov
+ref.message.from.username= Mirafzal_Shavkatov
+ref.message.from.language_code= ru
+ref.message.chat.id= 635793263
+ref.message.chat.first_name= Mirafzal
+ref.message.chat.last_name= Shavkatov
+ref.message.chat.username= Mirafzal_Shavkatov
+ref.message.chat.type= private
+ref.message.date= 1591850684
+ref.message.text= Оплата и доставка
+
+
+[ref]
+ref.text= - fergeg
+- gerger
+ref.parse_mode= MarkdownV2
+
+
+============[Trace]===========
+#0 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(6400): TelegramErrorLogger::log(Array, Array)
+#1 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(220): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(390): Telegram->endpoint('sendMessage', Array)
+#3 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(224): Telegram->sendMessage(Array)
+#4 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(165): sendMessage('- fergeg\n- gerg...', 'MarkdownV2')
+#5 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(71): showPaymentAndDeliveryPage()
+#6 {main}
+
+============[Date]============
+[ 2020-06-11 07:46:42  Europe/Moscow ] 
+==========[Response]==========
+ok:			False
+error_code:		400
+description:		Bad Request: can't parse entities: Character '+' is reserved and must be escaped with the preceding '\'
+=========[Sent Data]==========
+[ref]
+ref.update_id= 287966963
+ref.message.message_id= 24
+ref.message.from.id= 635793263
+ref.message.from.is_bot= false
+ref.message.from.first_name= Mirafzal
+ref.message.from.last_name= Shavkatov
+ref.message.from.username= Mirafzal_Shavkatov
+ref.message.from.language_code= ru
+ref.message.chat.id= 635793263
+ref.message.chat.first_name= Mirafzal
+ref.message.chat.last_name= Shavkatov
+ref.message.chat.username= Mirafzal_Shavkatov
+ref.message.chat.type= private
+ref.message.date= 1591850802
+ref.message.text= Оплата и доставка
+
+
+[ref]
+ref.text= + fergeg
++ gerger
+ref.parse_mode= MarkdownV2
+
+
+============[Trace]===========
+#0 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(6400): TelegramErrorLogger::log(Array, Array)
+#1 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(220): Telegram->sendAPIRequest('https://api.tel...', Array)
+#2 /home/b/bunnypeace/roboss.uz/public_html/ymobot/Telegram.php(390): Telegram->endpoint('sendMessage', Array)
+#3 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(224): Telegram->sendMessage(Array)
+#4 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(165): sendMessage('+ fergeg\n+ gerg...', 'MarkdownV2')
+#5 /home/b/bunnypeace/roboss.uz/public_html/ymobot/bot.php(71): showPaymentAndDeliveryPage()
+#6 {main}
+
