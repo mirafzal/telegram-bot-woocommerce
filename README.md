@@ -1,5 +1,5 @@
 # ymo-bot
-Telegram shop bot via Wordpress Rest API
+Telegram shop bot via WooCommerce (Wordpress) Rest API
 
 Used library:<br/>
 https://github.com/Eleirbag89/TelegramBotPHP<br/>
